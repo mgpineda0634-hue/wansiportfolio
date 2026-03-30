@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lab Task 6</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #ffffff;
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .textbox {
+            display: block;
+            width: 250px;
+            padding: 10px;
+            margin: 10px auto;
+        }
+
+        .inline-box {
+            background: white;
+            color: black;
+            padding: 15px;
+            width: 400px;
+            margin: 20px auto;
+        }
+
+        .inline-box p,
+        .inline-box button {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .inline-box button {
+            margin-left: 10px;
+            padding: 5px 10px;
+        }
+
+        .google {
+            background: white;
+            color: black;
+            padding: 30px;
+            margin-top: 20px;
+        }
+
+        .google img {
+            width: 200px;
+            margin-bottom: 15px;
+        }
+
+        .search {
+            width: 400px;
+            padding: 10px;
+        }
+
+        .challenge {
+            margin-top: 40px;
+        }
+
+        .signup {
+            background: white;
+            color: black;
+            padding: 20px;
+            width: 300px;
+            margin: 20px;
+            display: inline-block;
+        }
+
+        .signup input {
+            width: 90%;
+            padding: 10px;
+            margin: 8px 0;
+        }
+
+        .signup button {
+            width: 100%;
+            padding: 10px;
+            background: #373c42;
+            border: none;
+            color: white;
+        }
+
+        .uber {
+            background: rgb(255, 255, 255);
+            color: black;
+            padding: 20px;
+            width: 350px;
+            margin: 20px;
+            display: inline-block;
+            text-align: left;
+        }
+
+        .uber input {
+            width: 95%;
+            padding: 10px;
+            margin: 8px 0;
+        }
+
+        .uber button {
+            padding: 10px 15px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Lab Task 6</h2>
+
+        <input class="textbox" type="text" placeholder="Name">
+        <input class="textbox" type="email" placeholder="Email">
+
+        <div class="inline-box">
+            <p>Thanks for chatting with our customer support.
+                Would you like to take our quick survey?</p>
+
+            <button>Yes</button>
+            <button>No</button>
+        </div>
+
+        <div class="google">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+            <br>
+            <input class="search" type="text" placeholder="Search Google or type a URL">
+        </div>
+
+        <div class="challenge">
+
+            <div class="signup">
+                <input type="text" placeholder="First name">
+                <input type="text" placeholder="Last name">
+                <input type="email" placeholder="Email">
+                <button>Sign Up</button>
+            </div>
+
+            <div class="uber">
+                <h2>Request a ride now</h2>
+
+                <input type="text" placeholder="Enter pickup location">
+                <input type="text" placeholder="Enter destination">
+
+                <button>Request now</button>
+                <button>Schedule for later</button>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

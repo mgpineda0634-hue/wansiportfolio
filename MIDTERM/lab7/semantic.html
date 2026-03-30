@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        #navbar {
+            background-color: rgb(187, 160, 160);
+            height: auto;
+            padding: 15px;
+        }
+
+        #navbar ul {
+            list-style-type: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+
+
+        }
+
+        #navbar li {
+            float: left;
+
+        }
+
+        #navbar li :hover {
+            background-color: rgb(201, 56, 56);
+            transform: scale(1);
+        }
+
+        #navbar a {
+            display: block;
+            text-align: center;
+            padding: 20px;
+            text-decoration: none;
+            color: black;
+        }
+
+        #navbar2 ul {
+            color: black;
+            padding: 5px;
+            list-style: none;
+            margin: 10px;
+            margin-top: 15px;
+            overflow: hidden;
+            float: left;
+        }
+
+        #navbar2 li {
+            padding: 12px 20px;
+            border-radius: 8px;
+            border: 1px solid rgb(0, 0, 0);
+            margin: 8px;
+        }
+
+        #navbar2 li:hover {
+            background-color: rgb(163, 138, 138);
+            transform: scale(1);
+        }
+
+        #navbar2 a {
+            color: black;
+            display: block;
+            text-align: center;
+            text-decoration: none;
+        }
+
+
+
+
+
+
+
+
+
+        body {
+            margin: 0px;
+        }
+
+        header {
+            background-color: rgb(167, 58, 102);
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        nav {
+            background-color: rgb(255, 255, 255);
+            height: px;
+        }
+
+        main {
+            background-color: rgb(73, 50, 50);
+            height: auto;
+            float: left;
+        }
+
+        aside {
+            background-color: rgb(244, 244, 244);
+            width: 30%;
+            float: left;
+            margin: 0px;
+        }
+
+        section {
+            background-color: rgb(245, 245, 245);
+            width: 30%;
+            float: left;
+            margin: 0px;
+        }
+
+        article {
+            background-color: rgb(255, 255, 255);
+            width: 30%;
+            float: left;
+            margin: 0px;
+        }
+
+        footer {
+            background-color: rgb(196, 98, 196);
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            clear: both;
+        }
+
+        @media screen and (max-width: 800px) {
+
+            aside,
+            section,
+            article {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2> This Is Header</h2>
+        </h1>
+    </header>
+    <nav id="navbar">
+        <ul>
+            <li><a href="Home">Home</a></li>
+            <li><a href="News">News</a></li>
+            <li><a href="Contact">Contact</a></li>
+            <li><a href="About">About</a></li>
+        </ul>
+    </nav>
+    <nav id="navbar2">
+        <ul>
+            <li>Home</li>
+            <li>News</li>
+            <li>Contact</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <aside>
+        <h2> Aside</h2>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed vel aut ratione consequuntur ipsa
+            recusandae in
+            amet molestiae natus labore obcaecati reprehenderit laudantium voluptates eius corrupti, ex error
+            asperiores?
+            Reprehenderit.</p>
+    </aside>
+
+
+    <section>
+        <h2> Section</h2>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed vel aut ratione consequuntur ipsa
+            recusandae in
+            amet molestiae natus labore obcaecati reprehenderit laudantium voluptates eius corrupti, ex error
+            asperiores?
+            Reprehenderit.</p>
+    </section>
+
+
+    <article>
+        <h2> Article</h2>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed vel aut ratione consequuntur ipsa
+            recusandae in
+            amet molestiae natus labore obcaecati reprehenderit laudantium voluptates eius corrupti, ex error
+            asperiores?
+            Reprehenderit.</p>
+    </article>
+
+
+    <footer>
+        <h2> This Is Footer</h2>
+    </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Style Switcher</title>
+
+    <link id="theme" rel="stylesheet" href="style1.css">
+
+    <script>
+        function changeStyle(style) {
+            document.getElementById("theme").href = style;
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to My Homepage</h1>
+        <p>Use the menu to select different stylesheets</p>
+    </header>
+
+    <div class="container">
+
+        <nav class="menu">
+            <button onclick="changeStyle('style1.css')">Stylesheet 1</button>
+            <button onclick="changeStyle('style2.css')">Stylesheet 2</button>
+            <button onclick="changeStyle('style3.css')">Stylesheet 3</button>
+            <button onclick="changeStyle('style4.css')">Stylesheet 4</button>
+            <button onclick="changeStyle('')">No Stylesheet</button>
+        </nav>
+
+        <main>
+            <h2>Same Page Different Stylesheets</h2>
+            <p>This is a demonstration of how different stylesheets can change the layout of your HTML page.</p>
+
+            <h3>No Styles</h3>
+            <p>This page uses DIV elements to group sections.</p>
+        </main>
+
+        <aside>
+            <h3>Side-Bar</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </aside>
+
+    </div>
+
+    <footer>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </footer>
+
+</body>
+
+</html>
